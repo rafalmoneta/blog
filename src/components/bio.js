@@ -6,63 +6,88 @@
  */
 
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
+import styled from "styled-components"
 
-import { rhythm } from "../utils/typography"
+function Bio() {
+  return (
+    <StaticQuery
+      query={bioQuery}
+      render={data => {
+        const { author, learning} = data.site.siteMetadata
+        return (
+          <Container>
+            <Image
+              fixed={data.avatar.childImageSharp.fixed}
+              alt={author}
+              style={{
+                marginRight: '1rem',
+                marginBottom: 0,
+                minWidth: 70,
+                borderRadius: `100%`,
+              }}
+              imgStyle={{
+                borderRadius: `50%`,
+              }}
+            />
+            <p 
 
-const Bio = () => {
-  const data = useStaticQuery(graphql`
-    query BioQuery {
-      avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
-        childImageSharp {
-          fixed(width: 50, height: 50) {
-            ...GatsbyImageSharpFixed
-          }
-        }
-      }
-      site {
-        siteMetadata {
-          author
-          social {
-            twitter
-          }
+            >
+              Stworzone przez <strong>{author}</strong> - fana science ficiton i dobrego serialu. Ten blog jest prowadzony w formie notatnika<span role="img" aria-label="astro"> 👨‍🚀</span> Aktualnie uczę się: <LearningBox>{learning}</LearningBox> <span role="img" aria-label="bot">🤖</span>
+              {` `}
+            </p>
+          </Container>
+        )
+      }}
+    />
+  )
+}
+
+const bioQuery = graphql`
+  query BioQuery {
+    avatar: file(absolutePath: { regex: "images/profile-pic.jpg/" }) {
+      childImageSharp {
+        fixed(width: 70, height: 70) {
+          ...GatsbyImageSharpFixed
         }
       }
     }
-  `)
+    site {
+      siteMetadata {
+        learning
+        author
+        social {
+          github,
+          email
+        }
+      }
+    }
+  }
+`
 
-  const { author, social } = data.site.siteMetadata
-  return (
-    <div
-      style={{
-        display: `flex`,
-        marginBottom: rhythm(2.5),
-      }}
-    >
-      <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
-        style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: `100%`,
-        }}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
-      />
-      <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
-        </a>
-      </p>
-    </div>
-  )
-}
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 1rem;
+  flex-direction: row;
+  a {
+    box-shadow: none;
+    &:hover {
+      box-shadow: 0 1px 0 0 currentColor;
+    }
+  }
+  p {
+    text-align: justify;
+  }
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+`
+
+const LearningBox = styled.span`
+  color: #E90A1F;
+`
 
 export default Bio

@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+
 
 const BlogPostTemplate = ({ data, pageContext, location }) => {
   const post = data.markdownRemark
@@ -17,11 +17,13 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
       />
-      <article>
+      <article
+        style={{margin: '1rem'}}  
+      >
         <header>
           <h1
             style={{
-              marginTop: rhythm(1),
+              // marginTop: rhythm(1),
               marginBottom: 0,
             }}
           >
@@ -29,18 +31,21 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </h1>
           <p
             style={{
-              ...scale(-1 / 5),
               display: `block`,
-              marginBottom: rhythm(1),
+              margin: '0 0 2rem',
+              fontSize: '1rem'
             }}
           >
             {post.frontmatter.date}
+            { !post.frontmatter.time || 
+              <span role="img" aria-label="drink">&nbsp; • &nbsp;🥤 {post.frontmatter.time} min czytania</span>
+            }
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} />
         <hr
           style={{
-            marginBottom: rhythm(1),
+            margin: '3rem 0' 
           }}
         />
         <footer>
@@ -95,6 +100,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        time
       }
     }
   }

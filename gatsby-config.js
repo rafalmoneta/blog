@@ -1,11 +1,15 @@
 module.exports = {
+  pathPrefix: "/reponame",
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
+    learning: `Gatsby and React`,
+    title: `Rafał Moneta`,
+    author: `Rafał Moneta`,
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    // siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `rafmoneta`,
+      github: `rafalmoneta`,
+      email: `rafalmoneta5@gmail.com`
     },
   },
   plugins: [
@@ -27,10 +31,19 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          // {
+          //   resolve: `gatsby-remark-highlight-code`
+          // },
+          {
+            resolve: `gatsby-remark-vscode`,
+            options: {
+              theme: 'Dark+ (default dark)',
+            }
+          },
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 900,
             },
           },
           {
@@ -39,7 +52,7 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
+          // `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
@@ -63,15 +76,17 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/coin.png`,
       },
     },
-    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
+        fonts: [
+          `Open Sans\:300,400,400i,700` // you can also specify font weights and styles
+        ],
+      }
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
