@@ -1,4 +1,134 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rafał Moneta]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 08 Feb 2020 13:40:57 GMT</lastBuildDate><item><title><![CDATA[Hello World - Przedstawienie]]></title><description><![CDATA[“Hello World” to prosty i zazwyczaj pierwszy program pisany przez osoby zaczynające swoją przygodę z programowaniem. Dzięki Hello World…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/hello-world/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/hello-world/</guid><pubDate>Wed, 01 Jan 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;“Hello World”&lt;/strong&gt; to prosty i zazwyczaj pierwszy program pisany przez osoby zaczynające swoją przygodę z programowaniem. Dzięki Hello World początkujący mogą łatwo zrozumieć podstawowe zasady i elementy &lt;em&gt;computer science&lt;/em&gt; a także poznać składnie i strukturę języka, w którym zamierzają pisać swoje pierwsze programy. &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rafał Moneta]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 08 Feb 2020 13:50:07 GMT</lastBuildDate><item><title><![CDATA[Architektura aplikacji webowych]]></title><description><![CDATA[Architektura aplikacji internetowej składa się z kilku komponentów takich jak: baza danych, kolejka komunikatów (message queue), pamięć…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/web-architecture-101/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/web-architecture-101/</guid><pubDate>Tue, 04 Feb 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Architektura aplikacji internetowej&lt;/strong&gt; składa się z kilku komponentów takich jak: baza danych, kolejka komunikatów (&lt;em&gt;message queue&lt;/em&gt;), pamięć podręczna (&lt;em&gt;cache&lt;/em&gt;), interfejs użytkownika oraz z serwera.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 900px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/ec98c39f7e3c4cc244ccdacb5b6faa9d/faa66/arch.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.72348484848485%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAEF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3pRQf//EABUQAQEAAAAAAAAAAAAAAAAAACBB/9oACAEBAAEFAqf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAYEAACAwAAAAAAAAAAAAAAAAAAESAxYf/aAAgBAQABPyF0Hsf/2gAMAwEAAgADAAAAEGAP/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPxA//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAGhABAAIDAQAAAAAAAAAAAAAAAQARECExkf/aAAgBAQABPxCtg2hyG1+MHWBvH//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Web Architecture Diagram&quot;
+        title=&quot;Web Architecture Diagram&quot;
+        src=&quot;/blog/static/ec98c39f7e3c4cc244ccdacb5b6faa9d/8e1fc/arch.jpg&quot;
+        srcset=&quot;/blog/static/ec98c39f7e3c4cc244ccdacb5b6faa9d/863e1/arch.jpg 225w,
+/blog/static/ec98c39f7e3c4cc244ccdacb5b6faa9d/20e5d/arch.jpg 450w,
+/blog/static/ec98c39f7e3c4cc244ccdacb5b6faa9d/8e1fc/arch.jpg 900w,
+/blog/static/ec98c39f7e3c4cc244ccdacb5b6faa9d/faa66/arch.jpg 1056w&quot;
+        sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Na powyższym obrazku widzimy typową architekturę aplikacji używaną w większości aplikacji internetowych. Jeżeli posiadamy wiedzę na temat poszczególnych komponentów możemy z łatwością oprzeć się na tego typu architekturze dla bardziej złożonych wymagań i aplikacji.&lt;/p&gt;
+&lt;p&gt;Przejdźmy do omówienia jednej z ważniejszych zagadnień w architekturze aplikacji webowych.&lt;/p&gt;
+&lt;h2&gt;Architektura Client-Server&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 900px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/522e0813b900b1076a1187ad9ab1848b/990cb/5862044756606976.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.450980392156865%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAQAF/8QAFAEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEAMQAAAB3VBqP//EABUQAQEAAAAAAAAAAAAAAAAAAAEg/9oACAEBAAEFAmv/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAUEAEAAAAAAAAAAAAAAAAAAAAg/9oACAEBAAY/Al//xAAYEAADAQEAAAAAAAAAAAAAAAAQESEAAf/aAAgBAQABPyFnMz2D/9oADAMBAAIAAwAAABBDz//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8QP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8QP//EABkQAQEAAwEAAAAAAAAAAAAAAAERABAhQf/aAAgBAQABPxBQFOnucVUhqXLA1e+6/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Client-Server diagram&quot;
+        title=&quot;Client-Server architecture diagram&quot;
+        src=&quot;/blog/static/522e0813b900b1076a1187ad9ab1848b/8e1fc/5862044756606976.jpg&quot;
+        srcset=&quot;/blog/static/522e0813b900b1076a1187ad9ab1848b/863e1/5862044756606976.jpg 225w,
+/blog/static/522e0813b900b1076a1187ad9ab1848b/20e5d/5862044756606976.jpg 450w,
+/blog/static/522e0813b900b1076a1187ad9ab1848b/8e1fc/5862044756606976.jpg 900w,
+/blog/static/522e0813b900b1076a1187ad9ab1848b/990cb/5862044756606976.jpg 1020w&quot;
+        sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architektura Client-Server&lt;/strong&gt; to model architektury w którym serwer hostuje, dostarcza i zarządza większością zasobów i usług, które zapewnia klientowi.&lt;/p&gt;
+&lt;p&gt;Inaczej mówiąc - klient wysyła zapytanie &lt;em&gt;(request)&lt;/em&gt; do serwera, po konkretną informację lub usługę, a serwer odpowiada &lt;em&gt;(respond)&lt;/em&gt; klientowi z konkretną informacją lub usługą.&lt;/p&gt;
+&lt;p&gt;Prawie każda z znanych stron: Facebook, Twitter czy aplikacja wybranego banku opiera się na architekturze client-server. Omówmy krótko z każdy z komponentów.&lt;/p&gt;
+&lt;h3&gt;Client&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Klient&lt;/strong&gt; (c&lt;em&gt;lient) -&lt;/em&gt; posiada interfejs użytkownika, który prezentuje naszą aplikacje (inaczej mówiąc odpowiada za wygląd naszej aplikacji). Klientem może być aplikacja mobilna, przeglądarka internetowa czy na przykład iPad.&lt;/p&gt;
+&lt;p&gt;Wyróżniamy dwa rodzaje klienta:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;thin client&lt;/strong&gt; - to klient, który posiada tylko interfejs użytkownika, nie trzyma w sobie żadnej logiki i dla każdego działania wysyła zapytanie (request) do serwera.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;fat client&lt;/strong&gt; - to klient, który posiada interfejs użytkownika, ale także część lub całość logiki np gra online&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Server&lt;/h3&gt;
+&lt;p&gt;Głównym zadaniem &lt;strong&gt;serwera&lt;/strong&gt; jest otrzymywanie zapytań od klienta oraz udzielenie odpowiedzi na podstawie parametrów żądania otrzymanych od klienta. Jeżeli klient wysłał zapytanie o date dnia dzisiejszego, jego zadaniem jest przesłanie mu tej konkretnej daty.&lt;/p&gt;
+&lt;p&gt;Wszystkie komponenty aplikacji internetowej wymagają serwera do uruchomienia. Może to być baza danych, kolejka komunikatów, pamięć podręczna lub dowolny inny komponent. We współczesnym tworzeniu aplikacji nawet interfejs użytkownika jest hostowany osobno na dedykowanym serwerze.&lt;/p&gt;
+&lt;h3&gt;Server-Side Rendering&lt;/h3&gt;
+&lt;p&gt;Często programiści aplikacji internetowych, do renderowania interfejsu użytkownika używają serwera, a po jego całkowitym wyrenderowaniu przesyłają wyrenderowany interfejs do klienta. Ta technika nazywana jest Server-Side Rendering.&lt;/p&gt;
+&lt;h3&gt;Komunikacja między Client &amp;#x26; Server&lt;/h3&gt;
+&lt;p&gt;Klient &amp;#x26; serwer opiera się na modelu zapytań (request) i odpowiedz (respond). Klient wysyła zapytanie, a server odpowiada z konkretnymi danymi. Jeżeli nie ma zapytania, nie ma odpowiedzi. Cała komunikacja odbywa się dzięki protokołowi HTTP.&lt;/p&gt;
+&lt;h3&gt;Protokół HTTP.&lt;/h3&gt;
+&lt;p&gt;Protokół HTTP - stanowi podstawę każdej wymiany danych w Internecie i jest protokołem klient-serwer, co oznacza, że żądania są inicjowane przez odbiorcę, przeważnie przeglądarkę internetową (klienta). Więcej możesz przeczytać na &lt;a href=&quot;https://developer.mozilla.org/pl/docs/Web/HTTP/HTTP_wiadomosci_og%C3%B3lne&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://developer.mozilla.org/pl/docs/Web/HTTP/HTTP_wiadomosci_og%C3%B3lne&quot;&gt;&lt;/a&gt;&lt;a href=&quot;%5Bhttps://developer.mozilla.org/pl/docs/Web/HTTP/HTTP_wiadomosci_og%C3%B3lne%5D(https://developer.mozilla.org/pl/docs/Web/HTTP/HTTP_wiadomosci_og%C3%B3lne)&quot;&gt;MDN&lt;/a&gt;.&lt;/p&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  :root {
+    --grvsc-padding-v: 1rem;
+    --grvsc-padding-h: 1.5rem;
+    --grvsc-padding-top: var(--grvsc-padding-v);
+    --grvsc-padding-right: var(--grvsc-padding-h);
+    --grvsc-padding-bottom: var(--grvsc-padding-v);
+    --grvsc-padding-left: var(--grvsc-padding-h);
+    --grvsc-border-radius: 8px;
+  
+    --grvsc-line-highlighted-background-color: transparent;
+    --grvsc-line-highlighted-border-width: 4px;
+    --grvsc-line-highlighted-border-color: transparent;
+  }
+  
+  .grvsc-container {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top);
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom);
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius);
+    font-feature-settings: normal;
+  }
+  
+  .grvsc-code {
+    display: inline-block;
+    min-width: 100%;
+  }
+  
+  .grvsc-line {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left);
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right);
+  }
+  
+  .grvsc-line-highlighted {
+    background-color: var(--grvsc-line-highlighted-background-color);
+    box-shadow: inset var(--grvsc-line-highlighted-border-width) 0 0 0 var(--grvsc-line-highlighted-border-color);
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Hello World - Przedstawienie]]></title><description><![CDATA[“Hello World” to prosty i zazwyczaj pierwszy program pisany przez osoby zaczynające swoją przygodę z programowaniem. Dzięki Hello World…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/hello-world/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/hello-world/</guid><pubDate>Wed, 01 Jan 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;“Hello World”&lt;/strong&gt; to prosty i zazwyczaj pierwszy program pisany przez osoby zaczynające swoją przygodę z programowaniem. Dzięki Hello World początkujący mogą łatwo zrozumieć podstawowe zasady i elementy &lt;em&gt;computer science&lt;/em&gt; a także poznać składnie i strukturę języka, w którym zamierzają pisać swoje pierwsze programy. &lt;/p&gt;
 &lt;p&gt;To pogram, który może być początkiem niesamowitej programistycznej przygody - pięknych aplikacji, rozwiązanych problemów czy niesamowitych ludzi - albo po prostu zwykłą próbą czegoś nowego. Ten blog jest moim “Hello World”.&lt;/p&gt;
 &lt;pre class=&quot;grvsc-container dark-default-dark&quot; data-language=&quot;js&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;mtk4&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;helloWorld&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;() {&lt;/span&gt;&lt;/span&gt;
 &lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;quot;Hello World! My name is ...&amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
