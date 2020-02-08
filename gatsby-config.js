@@ -1,11 +1,11 @@
 module.exports = {
-  pathPrefix: "/blog",
+  pathPrefix: `/blog`,
   siteMetadata: {
     learning: `Gatsby and React`,
     title: `Rafał Moneta`,
     author: `Rafał Moneta`,
     description: `A starter blog demonstrating what Gatsby can do.`,
-    // siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `rafmoneta`,
       github: `rafalmoneta`,
@@ -31,9 +31,6 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          // {
-          //   resolve: `gatsby-remark-highlight-code`
-          // },
           {
             resolve: `gatsby-remark-vscode`,
             options: {
@@ -52,7 +49,6 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          // `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
         ],
@@ -84,12 +80,10 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Open Sans\:300,400,400i,700` // you can also specify font weights and styles
+          `Open Sans\:300,400,400i,700` //
         ],
       }
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+
   ],
 }
