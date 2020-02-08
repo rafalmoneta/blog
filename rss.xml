@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rafał Moneta]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 08 Feb 2020 13:40:57 GMT</lastBuildDate><item><title><![CDATA[Hello World - Przedstawienie]]></title><description><![CDATA[“Hello World” to prosty i zazwyczaj pierwszy program pisany przez osoby zaczynające swoją przygodę z programowaniem. Dzięki Hello World…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/hello-world/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/hello-world/</guid><pubDate>Wed, 01 Jan 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;“Hello World”&lt;/strong&gt; to prosty i zazwyczaj pierwszy program pisany przez osoby zaczynające swoją przygodę z programowaniem. Dzięki Hello World początkujący mogą łatwo zrozumieć podstawowe zasady i elementy &lt;em&gt;computer science&lt;/em&gt; a także poznać składnie i strukturę języka, w którym zamierzają pisać swoje pierwsze programy. &lt;/p&gt;
+&lt;p&gt;To pogram, który może być początkiem niesamowitej programistycznej przygody - pięknych aplikacji, rozwiązanych problemów czy niesamowitych ludzi - albo po prostu zwykłą próbą czegoś nowego. Ten blog jest moim “Hello World”.&lt;/p&gt;
+&lt;pre class=&quot;grvsc-container dark-default-dark&quot; data-language=&quot;js&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;mtk4&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;helloWorld&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;() {&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;  &lt;/span&gt;&lt;span class=&quot;mtk10&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk8&quot;&gt;&amp;quot;Hello World! My name is ...&amp;quot;&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;mtk1&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2&gt;Kim jestem? 🤓&lt;/h2&gt;
+&lt;p&gt;Nazywam się &lt;strong&gt;Rafał Moneta&lt;/strong&gt; i strasznie wkręciłem się w programowanie. W momencie pisania tego wpisu jestem studentem i każdą wolną chwilę spędzam na budowaniu stron i aplikacji webowych. Jeśli nie koduje to prawdopodobnie biegam za piłką lub oglądam dobry serial. Jestem fanem Chucka, wyjcem w Red Rising i geekiem w prawdziwym świecie.&lt;/p&gt;
+&lt;h2&gt;Po co ten blog?&lt;/h2&gt;
+&lt;p&gt;To mój pierwszy blog, w którym zamierzam dzielić się przemyśleniami, opiniami i pomysłami. Prowadzę go dla samego siebie. Będzie pełnił on funkcję &lt;em&gt;publicznego notatnika&lt;/em&gt; z wszystkimi moimi notatkami, podsumowaniami czy opisem moich aktualnych projektów. Znajdziesz tu odpowiedzi na pytania, co aktualnie robie, czego się uczę, z jakimi problemami się stykam i nad jakimi projektami pracuje. &lt;/p&gt;
+&lt;h2&gt;Krok pierwszy 🔥&lt;/h2&gt;
+&lt;p&gt;Po zakończeniu znienawidzonej przez wszystkich studenckiej sesji, zacznę swój pierwszy programistyczny challenge czyli &lt;strong&gt;#100DaysOfCode&lt;/strong&gt;. Wszystko będę relacjonował na tym blogu! &lt;/p&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  :root {
+    --grvsc-padding-v: 1rem;
+    --grvsc-padding-h: 1.5rem;
+    --grvsc-padding-top: var(--grvsc-padding-v);
+    --grvsc-padding-right: var(--grvsc-padding-h);
+    --grvsc-padding-bottom: var(--grvsc-padding-v);
+    --grvsc-padding-left: var(--grvsc-padding-h);
+    --grvsc-border-radius: 8px;
+  
+    --grvsc-line-highlighted-background-color: transparent;
+    --grvsc-line-highlighted-border-width: 4px;
+    --grvsc-line-highlighted-border-color: transparent;
+  }
+  
+  .grvsc-container {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top);
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom);
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius);
+    font-feature-settings: normal;
+  }
+  
+  .grvsc-code {
+    display: inline-block;
+    min-width: 100%;
+  }
+  
+  .grvsc-line {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left);
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right);
+  }
+  
+  .grvsc-line-highlighted {
+    background-color: var(--grvsc-line-highlighted-background-color);
+    box-shadow: inset var(--grvsc-line-highlighted-border-width) 0 0 0 var(--grvsc-line-highlighted-border-color);
+  }
+  
+  .dark-default-dark {
+    background-color: #1E1E1E;
+    color: #D4D4D4;
+  }
+  .dark-default-dark .mtk4 { color: #569CD6; }
+  .dark-default-dark .mtk1 { color: #D4D4D4; }
+  .dark-default-dark .mtk11 { color: #DCDCAA; }
+  .dark-default-dark .mtk10 { color: #4EC9B0; }
+  .dark-default-dark .mtk8 { color: #CE9178; }
+&lt;/style&gt;</content:encoded></item></channel></rss>
