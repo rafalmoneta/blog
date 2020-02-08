@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/reponame",
+  pathPrefix: "/blog",
   siteMetadata: {
     learning: `Gatsby and React`,
     title: `Rafał Moneta`,
