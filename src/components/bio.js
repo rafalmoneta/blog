@@ -34,7 +34,8 @@ function Bio() {
             <p 
 
             >
-              Stworzone przez <strong>{author}</strong> - fana science ficiton i dobrego serialu. Ten blog jest prowadzony w formie notatnika<span role="img" aria-label="astro"> 👨‍🚀</span> Aktualnie uczę się: <LearningBox>{learning}</LearningBox> <span role="img" aria-label="bot">🤖</span>
+              Created by <strong>{author}</strong> - nerdy guy, science fiction fan. Wants to solve real problems using code and build useful applications. This blog is my programming diary. <span role="img" aria-label="astro"> 👨‍🚀</span> <br/>Currently learning: <LearningBox>{learning}</LearningBox> <span role="img" aria-label="bot">🤖</span>
+              
               {` `}
             </p>
           </Container>

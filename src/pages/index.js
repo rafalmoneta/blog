@@ -64,7 +64,7 @@ const BlogIndex = ({ data, location }) => {
                 <small>
                   <span>{node.frontmatter.date}</span>
                   { !node.frontmatter.time || 
-                      <span aria-label="drink" role="img">&nbsp; • &nbsp;🥤 {node.frontmatter.time} min czytania</span>
+                      <span aria-label="drink" role="img">&nbsp; • &nbsp;🥤 {node.frontmatter.time} min read</span>
                   }
                 </small>
               </header>

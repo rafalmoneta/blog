@@ -38,7 +38,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           >
             {post.frontmatter.date}
             { !post.frontmatter.time || 
-              <span role="img" aria-label="drink">&nbsp; • &nbsp;🥤 {post.frontmatter.time} min czytania</span>
+              <span role="img" aria-label="drink">&nbsp; • &nbsp;🥤 {post.frontmatter.time} min read</span>
             }
           </p>
         </header>

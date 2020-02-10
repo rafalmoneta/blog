@@ -9,7 +9,7 @@ class Layout extends React.Component {
     const rootPath = `${__PATH_PREFIX__}/`
     const blogPath = `${__PATH_PREFIX__}/blog/`
     let header
-    const title = <Title>RAFAŁMONETA.<span>BLOG</span></Title>
+    const title = <Title>RAFALMONETA<span>BLOG</span></Title>
 
 
 
