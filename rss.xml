@@ -1,4 +1,97 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rafał Moneta]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 10 Feb 2020 12:09:54 GMT</lastBuildDate><item><title><![CDATA[Introduction + 100daysOfCode]]></title><description><![CDATA[Hello, world! 🌍  My name is Rafał Moneta and this is my programming blog. I am a college student at the Cracow University of Economics who…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/hello-world/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/hello-world/</guid><pubDate>Wed, 01 Jan 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Hello, world!&lt;/strong&gt; 🌍 &lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rafał Moneta]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 11 Feb 2020 13:15:41 GMT</lastBuildDate><item><title><![CDATA[Day 1 - How to fetch data from a few APIs]]></title><description><![CDATA[Day 1 Today, I decided to fully translate my blog into English. Started by making some changes in bio, edited config file and pushed…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/day1/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/day1/</guid><pubDate>Mon, 10 Feb 2020 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Day 1&lt;/h2&gt;
+&lt;p&gt;Today, I decided to fully translate my blog into English. Started by making some changes in bio, edited config file and pushed everything to Github.&lt;/p&gt;
+&lt;p&gt;Then decided to start working on my movie app. Created react app using npx create-react-app and fetched some data from MovieDB API. Learned how to use useEffect and useReducer and did some styling using styled-components. At the moment my movie-app look like that: &lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 900px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/ebc8102a9ccde2ff394f59e39051586c/c2b0b/movie-app-stage1.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.13456464379947%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACVklEQVQoz2N4+eLl7du3Hj56+OP7j//////79+/Pv38//v0HkkDu37//fv/8+ef3779/fv0Dyf79+/v3/9+/gTSQw9DSOTW+uqO0c3JGVE5ucN68m+dKz+5cemV/34XD029c3r9tfWdO8LK+yr2bF287dvFMcekuT6/NkRE73D1PFxQwxKeUqyVUOkflhnkE2KnaVJzbX7mk7frOBU3Le4sXzVgxvbEs1nZGVXhNbtCeTfNXu7i1qShNSYleYG+11t6OIT2tjUE+wDsys7e8oCktt+3o9uK+gtWTm1etnHL+5N6i5IjeTMf55d75YSbTK4KWlRakBPo2luRWJkZMCg5kSI3rZmDxtvTMKK2esKF7UtHBTWG50QenVJ+eNWnt0l4ff287Hbn6KFtTPdVpzQWT6ipCw4O9vbzCIoInR4UznFi/K9YuJ9o2a0JCwdWpZdvObdo0v3ltRebMsuiFHXHZWUkhDoZZzrbKyrLleZlz0zID/AOAJgYEeBcEBDCcWDE5P9C9IyLkWJXL15M5y06tXbp7g83syu5O8/VTo6tKMsz0lTwsLVytdJJjw/tSUyPDw6Mig4tzU+PCQxiWT6jWVxHqSHK+uSTyz+stqftXa8yrVVjdMGumx5FViYlpqVKSwhoqUuoqkh5+/hMm9yye07980fSdm5ft2bGW4eGjBzeuXf7y+tmfjy/+//l1/d6dneePH79x+fati18/vb5x8/b5C5du3LwFRM+fP3/39jUQgeP71/9/fxiALDCCgj8/f/79/hNJAMECgl+/fv758wfOBQDWz223LDUDpgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;movie-app screenshot&quot;
+        title=&quot;movie-app screenshot&quot;
+        src=&quot;/blog/static/ebc8102a9ccde2ff394f59e39051586c/1cfc2/movie-app-stage1.png&quot;
+        srcset=&quot;/blog/static/ebc8102a9ccde2ff394f59e39051586c/3684f/movie-app-stage1.png 225w,
+/blog/static/ebc8102a9ccde2ff394f59e39051586c/fc2a6/movie-app-stage1.png 450w,
+/blog/static/ebc8102a9ccde2ff394f59e39051586c/1cfc2/movie-app-stage1.png 900w,
+/blog/static/ebc8102a9ccde2ff394f59e39051586c/21482/movie-app-stage1.png 1350w,
+/blog/static/ebc8102a9ccde2ff394f59e39051586c/d61c2/movie-app-stage1.png 1800w,
+/blog/static/ebc8102a9ccde2ff394f59e39051586c/c2b0b/movie-app-stage1.png 1895w&quot;
+        sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3&gt;How to fetch data from a few APIs&lt;/h3&gt;
+&lt;p&gt;Also today I learned how to fetch data from a few API. If you want to fetch data from different API or another data from your API (that your first fetched JSON object do not provide) then you can just use &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all&quot;&gt;Promise.all()&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Simple example:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://codepen.io/rafalmoneta/pen/bGddQgd&quot;&gt;&lt;div&gt;&lt;iframe 
+        height=&apos;400&apos; 
+        scrolling=&apos;no&apos; 
+        src=&apos;//codepen.io/rafalmoneta/embed/preview/bGddQgd/?height=400&amp;theme-id=dark&amp;default-tab=html,result&apos; 
+        frameborder=&apos;no&apos; 
+        allowtransparency=&apos;true&apos; 
+        allowfullscreen=&apos;true&apos; 
+        style=&apos;width: 100%;&apos;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  :root {
+    --grvsc-padding-v: 1rem;
+    --grvsc-padding-h: 1.5rem;
+    --grvsc-padding-top: var(--grvsc-padding-v);
+    --grvsc-padding-right: var(--grvsc-padding-h);
+    --grvsc-padding-bottom: var(--grvsc-padding-v);
+    --grvsc-padding-left: var(--grvsc-padding-h);
+    --grvsc-border-radius: 8px;
+  
+    --grvsc-line-highlighted-background-color: transparent;
+    --grvsc-line-highlighted-border-width: 4px;
+    --grvsc-line-highlighted-border-color: transparent;
+  }
+  
+  .grvsc-container {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top);
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom);
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius);
+    font-feature-settings: normal;
+  }
+  
+  .grvsc-code {
+    display: inline-block;
+    min-width: 100%;
+  }
+  
+  .grvsc-line {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left);
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right);
+  }
+  
+  .grvsc-line-highlighted {
+    background-color: var(--grvsc-line-highlighted-background-color);
+    box-shadow: inset var(--grvsc-line-highlighted-border-width) 0 0 0 var(--grvsc-line-highlighted-border-color);
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Introduction + 100daysOfCode]]></title><description><![CDATA[Hello, world! 🌍  My name is Rafał Moneta and this is my programming blog. I am a college student at the Cracow University of Economics who…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/hello-world/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/hello-world/</guid><pubDate>Sun, 09 Feb 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Hello, world!&lt;/strong&gt; 🌍 &lt;/p&gt;
 &lt;p&gt;My name is Rafał Moneta and this is my programming blog. I am a college student at the Cracow University of Economics who does some coding in my free time. I am a huge fan of ‘Chuck’ TV series, football and running. My goal is to change the world by creating useful applications and teaching kids programming.&lt;/p&gt;
 &lt;p&gt;I created this blog for the purpose of the #100daysOfCoding challenge. I hope to write every day about my progress, what  I have learned and on what projects did I work. Besides that, I want to try to write some technical/tutorials post and improve my English and writing skills.
 If you are too lazy to read my blog post about my coding journey thought #100daysOfCode you can always visit my &lt;a href=&quot;https://twitter.com/rmoneta5&quot;&gt;twitter&lt;/a&gt; for a shorter version. &lt;/p&gt;
