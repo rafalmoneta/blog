@@ -1,6 +1,6 @@
 ---
 title: Introduction + 100daysOfCode
-date: "2020-01-01T22:12:03.284Z"
+date: "2020-02-09T22:12:03.284Z"
 time: 2
 description: Who am I and why I created this blog.
 ---
@@ -19,3 +19,5 @@ function helloWorld() {
   console.log("Hello World! My name is ...")
 }
 ```
+
+
