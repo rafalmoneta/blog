@@ -1,4 +1,217 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rafał Moneta]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 11 Feb 2020 13:18:38 GMT</lastBuildDate><item><title><![CDATA[Day 1 - How to fetch data from a few APIs]]></title><description><![CDATA[Day 1 Today, I decided to fully translate my blog into English. Started by making some changes in bio, edited config file and pushed…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/day1/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/day1/</guid><pubDate>Mon, 10 Feb 2020 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Day 1&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rafał Moneta]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 17 Feb 2020 22:44:36 GMT</lastBuildDate><item><title><![CDATA[Day 3 to 6 - My react movie-app]]></title><description><![CDATA[On days 3 and 4, I had the Financial Math and Basics of Law exams at my University. Besides that, I managed to find some time to work on my…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/day3/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/day3/</guid><pubDate>Mon, 17 Feb 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;On days 3 and 4, I had the Financial Math and Basics of Law exams at my University. Besides that, I managed to find some time to work on my movie app.&lt;/p&gt;
+&lt;p&gt;On days 5 and 6, I decided to redesign my app. I learned a valuable lesson to always do a design sketch first, then start coding. After some troubles with useEffect hook, I finally finish the first version of my app.&lt;/p&gt;
+&lt;p&gt;You can see my code &lt;a href=&quot;https://github.com/rafalmoneta/movie-app-react&quot;&gt;there&lt;/a&gt; and test my movie-app &lt;a href=&quot;https://rafalmoneta.github.io/movie-app-react/&quot;&gt;there&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 900px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/f38b6b6feca768b5ee5c41b56da1bca0/497e1/movie-app.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.24272871496562%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACGklEQVQoz2O4tt3n9HrPRwf9fl0K/n4h6P+1oP9XA36e8/x72e//9aA/l3x/X/L9fy3w/43gf9eDflwIAqr5cTX11838n9dSGN4cD3hyyP/9qcCfF4O+nAs+vDLk6LrY17fazuzL3b0i7PbhgicnSk6viti/yP/YspDPZ8N+XAz8finyx+XYH5ciGX5cDPp5KfjbBSAZ9Px4qJq6iZ5rlMfG8+qp9Tyq1nlVffWF9U6WTrLCcibyNk8PJPy8HPD1XOC38wHfzgcy/L0a+OdK4O8rQIcFvjsdoq5iIWcWzBZfL+KbxSVr2Ng1ty0zy9vNwVJX293Q8d2JpP83/IDqgbqAiOHqlkggurI58sa2yJNrorQ1PVXVAnmNowXtEnhl9Das3rK8sagzKzzL1SXVMfDiuvRrW8Ovbo6E6GJQVWiAIBX5BnWVOjV1f23VCG75cD7jCA4RpZ4JsxsqG6fXVrcmpkzIrnSx6JKXrlNThGphkJVshCAZiUZFuQYVJW89jURuqUBOZR8mLtms6rZpc9eVNk2eMrlzU3Ojo2mPmEi9nBRUC4O8dCMEAYUU5RrNjcvtrVvVNfL1LGoNjAu9QjpichdEp87JieuqiO3X12iTkWxQkIFqQWgG62+wtZxsaTbJULfP23W2t/t8N6dZ9pZT7Cwm21hNVVRol5ZA6ETXDNYPdBVIhYpCs7I8CCnJNwO5ijKNyNogCADR1QCA6RjmHQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;movie-app&quot;
+        title=&quot;movie-app&quot;
+        src=&quot;/blog/static/f38b6b6feca768b5ee5c41b56da1bca0/1cfc2/movie-app.png&quot;
+        srcset=&quot;/blog/static/f38b6b6feca768b5ee5c41b56da1bca0/3684f/movie-app.png 225w,
+/blog/static/f38b6b6feca768b5ee5c41b56da1bca0/fc2a6/movie-app.png 450w,
+/blog/static/f38b6b6feca768b5ee5c41b56da1bca0/1cfc2/movie-app.png 900w,
+/blog/static/f38b6b6feca768b5ee5c41b56da1bca0/21482/movie-app.png 1350w,
+/blog/static/f38b6b6feca768b5ee5c41b56da1bca0/d61c2/movie-app.png 1800w,
+/blog/static/f38b6b6feca768b5ee5c41b56da1bca0/497e1/movie-app.png 1891w&quot;
+        sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In version two of my movie-app I want to add:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; Favorite movies button&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; ‘To watch’ list&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; More info on ‘movie’ page&lt;/li&gt;
+&lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; Create page about actors and producers etc&lt;/li&gt;
+&lt;/ul&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  :root {
+    --grvsc-padding-v: 1rem;
+    --grvsc-padding-h: 1.5rem;
+    --grvsc-padding-top: var(--grvsc-padding-v);
+    --grvsc-padding-right: var(--grvsc-padding-h);
+    --grvsc-padding-bottom: var(--grvsc-padding-v);
+    --grvsc-padding-left: var(--grvsc-padding-h);
+    --grvsc-border-radius: 8px;
+  
+    --grvsc-line-highlighted-background-color: transparent;
+    --grvsc-line-highlighted-border-width: 4px;
+    --grvsc-line-highlighted-border-color: transparent;
+  }
+  
+  .grvsc-container {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top);
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom);
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius);
+    font-feature-settings: normal;
+  }
+  
+  .grvsc-code {
+    display: inline-block;
+    min-width: 100%;
+  }
+  
+  .grvsc-line {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left);
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right);
+  }
+  
+  .grvsc-line-highlighted {
+    background-color: var(--grvsc-line-highlighted-background-color);
+    box-shadow: inset var(--grvsc-line-highlighted-border-width) 0 0 0 var(--grvsc-line-highlighted-border-color);
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Day 2 - How to hide your API keys and sensitive data]]></title><description><![CDATA[On day 2, I decided to publish some code on GitHub. To do that, I had to learn how to hide your API keys. There is a simple guide on how to…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/day2/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/day2/</guid><pubDate>Tue, 11 Feb 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;On day 2, I decided to publish some code on GitHub. To do that, I had to learn how to hide your API keys. There is a simple guide on how to do that.&lt;/p&gt;
+&lt;h2&gt;How to hide sensitive data in .env file&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Create a file called .env in the root of your project’s directory.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 197px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/22326df0bf50ccc1303cbc720b03a27b/1c154/directory.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 113.19796954314721%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAClElEQVQ4y41UiW6bQBTMb1SJzX0s7C6XubExvoIvfNuJHctSU/X/P6HPxGlaBdpIT2i1MMzsMMMdJ2qCQhG2NdoynMhqRdQJDCcklme6EbX968IJZGSwosZJ+p9zB1uSZhq2Hyb9xeqw3hyTbDhe7mbLdbHZZ4PJev/8+v2nZQdNXuVl/Bf4tpIx3GAF1BSQoGBGQA1OeRtGRJyof6a9gXlJR7Tl+okfpUm7B2ym5cG+qFJBIXz53s/IG1iQMTzESRorlrslD4hs8CpcGR7BtRYMo5JWy4vBGD9O29nIsAM/yoK4G3UHaTaM4pSXa8CgChSKCpEQVbH1NtjwiOmC1TA6bdWDJV3RbcPyLTdJkv4oX3e6oyavgG3MVTmCRa1seKusmRp1ur3pcDR9HG+yXs6V9pZu6ZXID9kSMlTd4hUiqOSBlR44pQ5QJRuDbC/pT+bFRlLJV5AfzLJuiciAT1IZhnqwjBlODYezdDwHV9N+7nrR+2nxl5hF1YB6XBMqaoygfmtK94x0z8r/B0O2NDtUDZc6frF7WS73s/kqH8/zSfH7/JVC3pmRxYjE9pNOP2938242dP3Y8WJw4YGVm+89qQCzAnYTkmTYsELbjZNOZrqJ48aGHUVxN04HYdgJkswL29Vg+AWEHdwfLcbT1Xg6n62Oh8MpbvcHo8kgnxXzzbhYpr0RJ1X0GWOLUBu/tUrRzfKDlYcs48UIWoOtkg3pa/K4M6SPUzyZ7feH8+nlvH/5cbm8Lja7p6dzAbFBFHpabdi1z8jiVVPRTCAEWkW3IK2Q2dJk8u94anq70HqL2XS9Xp+2u9Nhezlezlm+3G6fh5OiwamVgbllW8QtgbhASO2AmB6mLoYymwExXGhbXWZ/AeUq9BXMaxz9AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;directory&quot;
+        title=&quot;directory&quot;
+        src=&quot;/blog/static/22326df0bf50ccc1303cbc720b03a27b/1c154/directory.png&quot;
+        srcset=&quot;/blog/static/22326df0bf50ccc1303cbc720b03a27b/1c154/directory.png 197w&quot;
+        sizes=&quot;(max-width: 197px) 100vw, 197px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;Inside the .env file create name to your API key, for example &lt;strong&gt;REACT&lt;em&gt;APP&lt;/em&gt;MOVIEDB_KEY&lt;/strong&gt; and add .env file to .gitignore.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 900px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/blog/static/2ff52a8b15e901550da4b8929aa1bee3/e405b/envfile.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 36.65389527458493%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAqElEQVQY052ObQrCMAyGdxZltjVN2zRNmKv6x4N4/1sYPxkoDISHkJA8LxlIOrUeikjk6wgG+7wJZQzFAQNq1Y407ZN4bAGbj+ygukcdbEbSSFqynJENjM1F8U9AUu2kp5A04BP5MHg7BYvhHbRtvOOixb8BJpkzT9YvtFfQ4JenP+DMc6oHB81/3nmzIttHqc5IJvP3dl0u7aTzxfx/5MxH7Zd90u/tDV2cTKdATkG0AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;env and gitignore&quot;
+        title=&quot;env and gitignore&quot;
+        src=&quot;/blog/static/2ff52a8b15e901550da4b8929aa1bee3/1cfc2/envfile.png&quot;
+        srcset=&quot;/blog/static/2ff52a8b15e901550da4b8929aa1bee3/3684f/envfile.png 225w,
+/blog/static/2ff52a8b15e901550da4b8929aa1bee3/fc2a6/envfile.png 450w,
+/blog/static/2ff52a8b15e901550da4b8929aa1bee3/1cfc2/envfile.png 900w,
+/blog/static/2ff52a8b15e901550da4b8929aa1bee3/21482/envfile.png 1350w,
+/blog/static/2ff52a8b15e901550da4b8929aa1bee3/e405b/envfile.png 1566w&quot;
+        sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Access the API key via the process.env object.&lt;/p&gt;
+&lt;pre class=&quot;grvsc-container dark-default-dark&quot; data-language=&quot;javascript&quot; data-index=&quot;0&quot;&gt;&lt;code class=&quot;grvsc-code&quot;&gt;&lt;span class=&quot;grvsc-line&quot;&gt;&lt;span class=&quot;mtk10&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk11&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;process&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;env&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;mtk12&quot;&gt;REACT_APP_MOVIEDB_KEY&lt;/span&gt;&lt;span class=&quot;mtk1&quot;&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If after saving files and reloading the page this do not work, try to restart your server!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  :root {
+    --grvsc-padding-v: 1rem;
+    --grvsc-padding-h: 1.5rem;
+    --grvsc-padding-top: var(--grvsc-padding-v);
+    --grvsc-padding-right: var(--grvsc-padding-h);
+    --grvsc-padding-bottom: var(--grvsc-padding-v);
+    --grvsc-padding-left: var(--grvsc-padding-h);
+    --grvsc-border-radius: 8px;
+  
+    --grvsc-line-highlighted-background-color: transparent;
+    --grvsc-line-highlighted-border-width: 4px;
+    --grvsc-line-highlighted-border-color: transparent;
+  }
+  
+  .grvsc-container {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top);
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom);
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius);
+    font-feature-settings: normal;
+  }
+  
+  .grvsc-code {
+    display: inline-block;
+    min-width: 100%;
+  }
+  
+  .grvsc-line {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left);
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right);
+  }
+  
+  .grvsc-line-highlighted {
+    background-color: var(--grvsc-line-highlighted-background-color);
+    box-shadow: inset var(--grvsc-line-highlighted-border-width) 0 0 0 var(--grvsc-line-highlighted-border-color);
+  }
+  
+  .dark-default-dark {
+    background-color: #1E1E1E;
+    color: #D4D4D4;
+  }
+  .dark-default-dark .mtk10 { color: #4EC9B0; }
+  .dark-default-dark .mtk1 { color: #D4D4D4; }
+  .dark-default-dark .mtk11 { color: #DCDCAA; }
+  .dark-default-dark .mtk12 { color: #9CDCFE; }
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Day 1 - How to fetch data from a few APIs]]></title><description><![CDATA[Day 1 Today, I decided to fully translate my blog into English. Started by making some changes in bio, edited config file and pushed…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/day1/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/day1/</guid><pubDate>Mon, 10 Feb 2020 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Day 1&lt;/h2&gt;
 &lt;p&gt;Today, I decided to fully translate my blog into English. Started by making some changes in bio, edited config file and pushed everything to Github.&lt;/p&gt;
 &lt;p&gt;Then decided to start working on my movie app. Created react app using npx create-react-app and fetched some data from MovieDB API. Learned how to use useEffect and useReducer and did some styling using styled-components. At the moment my movie-app look like that: &lt;/p&gt;
 &lt;p&gt;&lt;span

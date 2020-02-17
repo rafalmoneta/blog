@@ -18,52 +18,75 @@ body h1,body h2,body h3,body h4,body h5,body h6{font-weight:bold;}
 html{background-color:#fff;min-width:300px;overflow-x:hidden;overflow-y:scroll;text-rendering:optimizeLegibility;-webkit-text-size-adjust:100%;text-size-adjust:100%;}
 *{box-sizing:inherit;}
 data-styled.g7[id="sc-global-eurSCc1"]{content:"sc-global-eurSCc1,"}
-</style><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700" rel="stylesheet"/><link as="script" rel="preload" href="/blog/webpack-runtime-e4f57b8cd33c71a05c87.js"/><link as="script" rel="preload" href="/blog/styles-c149c97793d06feabf93.js"/><link as="script" rel="preload" href="/blog/app-75bead19a3de281a4175.js"/><link as="script" rel="preload" href="/blog/commons-97027506008b7aa53cde.js"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-4790e0364cbc59066e61.js"/><link as="fetch" rel="preload" href="/blog/page-data\day1\page-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div class="layout__Wrapper-sc-1xvv2zr-0 dVdfwk"><div><header><h3 style="font-family:Montserrat, sans-serif;margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/blog/"><div class="layout__Title-sc-1xvv2zr-1 hIpaOa">RAFALMONETA<span>BLOG</span></div></a></h3></header><main><article style="margin:1rem"><header><h1 style="margin-bottom:0">Day 1 - How to fetch data from a few APIs</h1><p style="display:block;margin:0 0 2rem;font-size:1rem">February 10, 2020<span role="img" aria-label="drink">  •  🥤 <!-- -->2<!-- --> min read</span></p></header><section><h2>Day 1</h2>
-<p>Today, I decided to fully translate my blog into English. Started by making some changes in bio, edited config file and pushed everything to Github.</p>
-<p>Then decided to start working on my movie app. Created react app using npx create-react-app and fetched some data from MovieDB API. Learned how to use useEffect and useReducer and did some styling using styled-components. At the moment my movie-app look like that: </p>
-<p><span
+</style><link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700" rel="stylesheet"/><link as="script" rel="preload" href="/blog/webpack-runtime-e4f57b8cd33c71a05c87.js"/><link as="script" rel="preload" href="/blog/styles-c149c97793d06feabf93.js"/><link as="script" rel="preload" href="/blog/app-75bead19a3de281a4175.js"/><link as="script" rel="preload" href="/blog/commons-97027506008b7aa53cde.js"/><link as="script" rel="preload" href="/blog/component---src-templates-blog-post-js-4790e0364cbc59066e61.js"/><link as="fetch" rel="preload" href="/blog/page-data\day2\page-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group" id="gatsby-focus-wrapper"><div class="layout__Wrapper-sc-1xvv2zr-0 dVdfwk"><div><header><h3 style="font-family:Montserrat, sans-serif;margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/blog/"><div class="layout__Title-sc-1xvv2zr-1 hIpaOa">RAFALMONETA<span>BLOG</span></div></a></h3></header><main><article style="margin:1rem"><header><h1 style="margin-bottom:0">Day 2 - How to hide your API keys and sensitive data</h1><p style="display:block;margin:0 0 2rem;font-size:1rem">February 11, 2020<span role="img" aria-label="drink">  •  🥤 <!-- -->2<!-- --> min read</span></p></header><section><p>On day 2, I decided to publish some code on GitHub. To do that, I had to learn how to hide your API keys. There is a simple guide on how to do that.</p>
+<h2>How to hide sensitive data in .env file</h2>
+<ol>
+<li>Create a file called .env in the root of your project’s directory.
+<span
       class="gatsby-resp-image-wrapper"
-      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 900px;"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 197px;"
     >
       <a
     class="gatsby-resp-image-link"
-    href="/blog/static/ebc8102a9ccde2ff394f59e39051586c/c2b0b/movie-app-stage1.png"
+    href="/blog/static/22326df0bf50ccc1303cbc720b03a27b/1c154/directory.png"
     style="display: block"
     target="_blank"
     rel="noopener"
   >
     <span
     class="gatsby-resp-image-background-image"
-    style="padding-bottom: 51.13456464379947%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAAA7DAAAOwwHHb6hkAAACVklEQVQoz2N4+eLl7du3Hj56+OP7j//////79+/Pv38//v0HkkDu37//fv/8+ef3779/fv0Dyf79+/v3/9+/gTSQw9DSOTW+uqO0c3JGVE5ucN68m+dKz+5cemV/34XD029c3r9tfWdO8LK+yr2bF287dvFMcekuT6/NkRE73D1PFxQwxKeUqyVUOkflhnkE2KnaVJzbX7mk7frOBU3Le4sXzVgxvbEs1nZGVXhNbtCeTfNXu7i1qShNSYleYG+11t6OIT2tjUE+wDsys7e8oCktt+3o9uK+gtWTm1etnHL+5N6i5IjeTMf55d75YSbTK4KWlRakBPo2luRWJkZMCg5kSI3rZmDxtvTMKK2esKF7UtHBTWG50QenVJ+eNWnt0l4ff287Hbn6KFtTPdVpzQWT6ipCw4O9vbzCIoInR4UznFi/K9YuJ9o2a0JCwdWpZdvObdo0v3ltRebMsuiFHXHZWUkhDoZZzrbKyrLleZlz0zID/AOAJgYEeBcEBDCcWDE5P9C9IyLkWJXL15M5y06tXbp7g83syu5O8/VTo6tKMsz0lTwsLVytdJJjw/tSUyPDw6Mig4tzU+PCQxiWT6jWVxHqSHK+uSTyz+stqftXa8yrVVjdMGumx5FViYlpqVKSwhoqUuoqkh5+/hMm9yye07980fSdm5ft2bGW4eGjBzeuXf7y+tmfjy/+//l1/d6dneePH79x+fati18/vb5x8/b5C5du3LwFRM+fP3/39jUQgeP71/9/fxiALDCCgj8/f/79/hNJAMECgl+/fv758wfOBQDWz223LDUDpgAAAABJRU5ErkJggg=='); background-size: cover; display: block;"
+    style="padding-bottom: 113.19796954314721%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAXCAIAAACEf/j0AAAACXBIWXMAAA7DAAAOwwHHb6hkAAAClElEQVQ4y41UiW6bQBTMb1SJzX0s7C6XubExvoIvfNuJHctSU/X/P6HPxGlaBdpIT2i1MMzsMMMdJ2qCQhG2NdoynMhqRdQJDCcklme6EbX968IJZGSwosZJ+p9zB1uSZhq2Hyb9xeqw3hyTbDhe7mbLdbHZZ4PJev/8+v2nZQdNXuVl/Bf4tpIx3GAF1BSQoGBGQA1OeRtGRJyof6a9gXlJR7Tl+okfpUm7B2ym5cG+qFJBIXz53s/IG1iQMTzESRorlrslD4hs8CpcGR7BtRYMo5JWy4vBGD9O29nIsAM/yoK4G3UHaTaM4pSXa8CgChSKCpEQVbH1NtjwiOmC1TA6bdWDJV3RbcPyLTdJkv4oX3e6oyavgG3MVTmCRa1seKusmRp1ur3pcDR9HG+yXs6V9pZu6ZXID9kSMlTd4hUiqOSBlR44pQ5QJRuDbC/pT+bFRlLJV5AfzLJuiciAT1IZhnqwjBlODYezdDwHV9N+7nrR+2nxl5hF1YB6XBMqaoygfmtK94x0z8r/B0O2NDtUDZc6frF7WS73s/kqH8/zSfH7/JVC3pmRxYjE9pNOP2938242dP3Y8WJw4YGVm+89qQCzAnYTkmTYsELbjZNOZrqJ48aGHUVxN04HYdgJkswL29Vg+AWEHdwfLcbT1Xg6n62Oh8MpbvcHo8kgnxXzzbhYpr0RJ1X0GWOLUBu/tUrRzfKDlYcs48UIWoOtkg3pa/K4M6SPUzyZ7feH8+nlvH/5cbm8Lja7p6dzAbFBFHpabdi1z8jiVVPRTCAEWkW3IK2Q2dJk8u94anq70HqL2XS9Xp+2u9Nhezlezlm+3G6fh5OiwamVgbllW8QtgbhASO2AmB6mLoYymwExXGhbXWZ/AeUq9BXMaxz9AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
   ></span>
   <img
         class="gatsby-resp-image-image"
-        alt="movie-app screenshot"
-        title="movie-app screenshot"
-        src="/blog/static/ebc8102a9ccde2ff394f59e39051586c/1cfc2/movie-app-stage1.png"
-        srcset="/blog/static/ebc8102a9ccde2ff394f59e39051586c/3684f/movie-app-stage1.png 225w,
-/blog/static/ebc8102a9ccde2ff394f59e39051586c/fc2a6/movie-app-stage1.png 450w,
-/blog/static/ebc8102a9ccde2ff394f59e39051586c/1cfc2/movie-app-stage1.png 900w,
-/blog/static/ebc8102a9ccde2ff394f59e39051586c/21482/movie-app-stage1.png 1350w,
-/blog/static/ebc8102a9ccde2ff394f59e39051586c/d61c2/movie-app-stage1.png 1800w,
-/blog/static/ebc8102a9ccde2ff394f59e39051586c/c2b0b/movie-app-stage1.png 1895w"
+        alt="directory"
+        title="directory"
+        src="/blog/static/22326df0bf50ccc1303cbc720b03a27b/1c154/directory.png"
+        srcset="/blog/static/22326df0bf50ccc1303cbc720b03a27b/1c154/directory.png 197w"
+        sizes="(max-width: 197px) 100vw, 197px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></li>
+<li>Inside the .env file create name to your API key, for example <strong>REACT<em>APP</em>MOVIEDB_KEY</strong> and add .env file to .gitignore.
+<span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 900px;"
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/blog/static/2ff52a8b15e901550da4b8929aa1bee3/e405b/envfile.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 36.65389527458493%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAHCAIAAACHqfpvAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAqElEQVQY052ObQrCMAyGdxZltjVN2zRNmKv6x4N4/1sYPxkoDISHkJA8LxlIOrUeikjk6wgG+7wJZQzFAQNq1Y407ZN4bAGbj+ygukcdbEbSSFqynJENjM1F8U9AUu2kp5A04BP5MHg7BYvhHbRtvOOixb8BJpkzT9YvtFfQ4JenP+DMc6oHB81/3nmzIttHqc5IJvP3dl0u7aTzxfx/5MxH7Zd90u/tDV2cTKdATkG0AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="env and gitignore"
+        title="env and gitignore"
+        src="/blog/static/2ff52a8b15e901550da4b8929aa1bee3/1cfc2/envfile.png"
+        srcset="/blog/static/2ff52a8b15e901550da4b8929aa1bee3/3684f/envfile.png 225w,
+/blog/static/2ff52a8b15e901550da4b8929aa1bee3/fc2a6/envfile.png 450w,
+/blog/static/2ff52a8b15e901550da4b8929aa1bee3/1cfc2/envfile.png 900w,
+/blog/static/2ff52a8b15e901550da4b8929aa1bee3/21482/envfile.png 1350w,
+/blog/static/2ff52a8b15e901550da4b8929aa1bee3/e405b/envfile.png 1566w"
         sizes="(max-width: 900px) 100vw, 900px"
         style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
         loading="lazy"
       />
   </a>
-    </span></p>
-<h3>How to fetch data from a few APIs</h3>
-<p>Also today I learned how to fetch data from a few API. If you want to fetch data from different API or another data from your API (that your first fetched JSON object do not provide) then you can just use <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all">Promise.all()</a>.</p>
-<p>Simple example:</p>
-<p><a href="https://codepen.io/rafalmoneta/pen/bGddQgd"><div><iframe 
-        height='400' 
-        scrolling='no' 
-        src='//codepen.io/rafalmoneta/embed/preview/bGddQgd/?height=400&theme-id=dark&default-tab=html,result' 
-        frameborder='no' 
-        allowtransparency='true' 
-        allowfullscreen='true' 
-        style='width: 100%;'></iframe></div></a></p>
+    </span></li>
+<li>
+<p>Access the API key via the process.env object.</p>
+<pre class="grvsc-container dark-default-dark" data-language="javascript" data-index="0"><code class="grvsc-code"><span class="grvsc-line"><span class="mtk10">console</span><span class="mtk1">.</span><span class="mtk11">log</span><span class="mtk1">(</span><span class="mtk12">process</span><span class="mtk1">.</span><span class="mtk12">env</span><span class="mtk1">.</span><span class="mtk12">REACT_APP_MOVIEDB_KEY</span><span class="mtk1">)</span></span></code></pre>
+<p>If after saving files and reloading the page this do not work, try to restart your server!</p>
+</li>
+</ol>
 <style class="grvsc-styles">
   :root {
     --grvsc-padding-v: 1rem;
@@ -111,8 +134,16 @@ data-styled.g7[id="sc-global-eurSCc1"]{content:"sc-global-eurSCc1,"}
     box-shadow: inset var(--grvsc-line-highlighted-border-width) 0 0 0 var(--grvsc-line-highlighted-border-color);
   }
   
+  .dark-default-dark {
+    background-color: #1E1E1E;
+    color: #D4D4D4;
+  }
+  .dark-default-dark .mtk10 { color: #4EC9B0; }
+  .dark-default-dark .mtk1 { color: #D4D4D4; }
+  .dark-default-dark .mtk11 { color: #DCDCAA; }
+  .dark-default-dark .mtk12 { color: #9CDCFE; }
 </style></section><hr style="margin:3rem 0"/><footer><div class="bio__Container-dqgn4i-0 dsjCSh"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:70px;height:70px;margin-right:1rem;margin-bottom:0;min-width:70px;border-radius:100%"><img aria-hidden="true" src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMEAv/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAABlTvqaxN4lIN4uP/EABsQAAICAwEAAAAAAAAAAAAAAAECAxEAITIS/9oACAEBAAEFAmi2o9FogGjGkFEg25xeU5//xAAWEQADAAAAAAAAAAAAAAAAAAABICH/2gAIAQMBAT8BMT//xAAUEQEAAAAAAAAAAAAAAAAAAAAg/9oACAECAQE/AR//xAAcEAACAgIDAAAAAAAAAAAAAAAAAREhAjEQInH/2gAIAQEABj8C1o7JR4OyWXopSZD4/8QAGxABAAMBAQEBAAAAAAAAAAAAAQARITFBUaH/2gAIAQEAAT8hRTh6L7O3l8pUGGu5nkBTO5Vy2gTgeZErwGVPwRWFn//aAAwDAQACAAMAAAAQBy+C/8QAGREBAAIDAAAAAAAAAAAAAAAAAQARECFB/9oACAEDAQE/EAWL3AEncf/EABkRAAIDAQAAAAAAAAAAAAAAAAABEBEhQf/aAAgBAgEBPxBWzTkf/8QAHBABAAMBAQADAAAAAAAAAAAAAQARITFRQWFx/9oACAEBAAE/EK3tL2z5AFAH8vKe1WSlCtRu+NiuDYHr4VYlQHPex59mpYeMQA4AOVYR4u0q3mXE7xJ//9k=" alt="Rafał Moneta" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:500ms;border-radius:50%"/><noscript><picture><source srcset="/blog/static/77e59eff31493d250e92280f0debd4d6/6dc54/profile-pic.jpg 1x,
 /blog/static/77e59eff31493d250e92280f0debd4d6/cf310/profile-pic.jpg 1.5x,
 /blog/static/77e59eff31493d250e92280f0debd4d6/74cd3/profile-pic.jpg 2x" /><img loading="lazy" width="70" height="70" srcset="/blog/static/77e59eff31493d250e92280f0debd4d6/6dc54/profile-pic.jpg 1x,
 /blog/static/77e59eff31493d250e92280f0debd4d6/cf310/profile-pic.jpg 1.5x,
-/blog/static/77e59eff31493d250e92280f0debd4d6/74cd3/profile-pic.jpg 2x" src="/blog/static/77e59eff31493d250e92280f0debd4d6/6dc54/profile-pic.jpg" alt="Rafał Moneta" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>Created by <strong>Rafał Moneta</strong> - nerdy guy, science fiction fan. Wants to solve real problems using code and build useful applications. This blog is my programming diary. <span role="img" aria-label="astro"> 👨‍🚀</span> <br/>Currently learning: <span class="bio__LearningBox-dqgn4i-1 eONria">Gatsby and React</span> <span role="img" aria-label="bot">🤖</span> </p></div></footer></article><nav><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/blog/hello-world/">← <!-- -->Introduction + 100daysOfCode</a></li><li><a rel="next" href="/blog/day2/">Day 2 - How to hide your API keys and sensitive data<!-- --> →</a></li></ul></nav></main></div><footer class="layout__Footer-sc-1xvv2zr-2 jKGrXc">© <!-- -->2020<!-- --> Site built with <span role="img" aria-label="heart">❤️</span> JavaScript and CSS using React and Gatsby.</footer></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/day1/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-75bead19a3de281a4175.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-4790e0364cbc59066e61.js"],"component---src-pages-404-js":["/component---src-pages-404-js-a2f8b45d223d87b6d480.js"],"component---src-pages-index-js":["/component---src-pages-index-js-065866a40bca1f249239.js"]};/*]]>*/</script><script src="/blog/component---src-templates-blog-post-js-4790e0364cbc59066e61.js" async=""></script><script src="/blog/commons-97027506008b7aa53cde.js" async=""></script><script src="/blog/app-75bead19a3de281a4175.js" async=""></script><script src="/blog/styles-c149c97793d06feabf93.js" async=""></script><script src="/blog/webpack-runtime-e4f57b8cd33c71a05c87.js" async=""></script></body></html>
+/blog/static/77e59eff31493d250e92280f0debd4d6/74cd3/profile-pic.jpg 2x" src="/blog/static/77e59eff31493d250e92280f0debd4d6/6dc54/profile-pic.jpg" alt="Rafał Moneta" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>Created by <strong>Rafał Moneta</strong> - nerdy guy, science fiction fan. Wants to solve real problems using code and build useful applications. This blog is my programming diary. <span role="img" aria-label="astro"> 👨‍🚀</span> <br/>Currently learning: <span class="bio__LearningBox-dqgn4i-1 eONria">Gatsby and React</span> <span role="img" aria-label="bot">🤖</span> </p></div></footer></article><nav><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/blog/day1/">← <!-- -->Day 1 - How to fetch data from a few APIs</a></li><li><a rel="next" href="/blog/day3/">Day 3 to 6 - My react movie-app<!-- --> →</a></li></ul></nav></main></div><footer class="layout__Footer-sc-1xvv2zr-2 jKGrXc">© <!-- -->2020<!-- --> Site built with <span role="img" aria-label="heart">❤️</span> JavaScript and CSS using React and Gatsby.</footer></div></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/day2/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-75bead19a3de281a4175.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-4790e0364cbc59066e61.js"],"component---src-pages-404-js":["/component---src-pages-404-js-a2f8b45d223d87b6d480.js"],"component---src-pages-index-js":["/component---src-pages-index-js-065866a40bca1f249239.js"]};/*]]>*/</script><script src="/blog/component---src-templates-blog-post-js-4790e0364cbc59066e61.js" async=""></script><script src="/blog/commons-97027506008b7aa53cde.js" async=""></script><script src="/blog/app-75bead19a3de281a4175.js" async=""></script><script src="/blog/styles-c149c97793d06feabf93.js" async=""></script><script src="/blog/webpack-runtime-e4f57b8cd33c71a05c87.js" async=""></script></body></html>
