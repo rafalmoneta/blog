@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rafał Moneta]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 17 Feb 2020 22:44:36 GMT</lastBuildDate><item><title><![CDATA[Day 3 to 6 - My react movie-app]]></title><description><![CDATA[On days 3 and 4, I had the Financial Math and Basics of Law exams at my University. Besides that, I managed to find some time to work on my…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/day3/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/day3/</guid><pubDate>Mon, 17 Feb 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;On days 3 and 4, I had the Financial Math and Basics of Law exams at my University. Besides that, I managed to find some time to work on my movie app.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Rafał Moneta]]></title><description><![CDATA[A starter blog demonstrating what Gatsby can do.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 19 Feb 2020 23:10:52 GMT</lastBuildDate><item><title><![CDATA[Day 7 and 8 - Simple Message Board]]></title><description><![CDATA[On days 7 and 8, I learned basic Express.js by creating two simple apps. The first app is a basic website with simple routing. You can see…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/day7/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/day7/</guid><pubDate>Wed, 19 Feb 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;On days 7 and 8, I learned basic Express.js by creating two simple apps.&lt;/p&gt;
+&lt;p&gt;The first app is a basic website with simple routing. You can see source code at &lt;a href=&quot;https://github.com/rafalmoneta/basic-site-express&quot;&gt;github repository&lt;/a&gt;. Also on day 7, I spend some time reading about Web Architecture, Client-Server Architecture and different tiers in software architecture.&lt;/p&gt;
+&lt;p&gt;The second project is a simple message board created with Expressjs. Source code at &lt;a href=&quot;https://github.com/rafalmoneta/mini-message-board&quot;&gt;Github&lt;/a&gt;. I deployed this app to Heroku and you can see a live demo &lt;a href=&quot;https://safe-bastion-00302.herokuapp.com/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;style class=&quot;grvsc-styles&quot;&gt;
+  :root {
+    --grvsc-padding-v: 1rem;
+    --grvsc-padding-h: 1.5rem;
+    --grvsc-padding-top: var(--grvsc-padding-v);
+    --grvsc-padding-right: var(--grvsc-padding-h);
+    --grvsc-padding-bottom: var(--grvsc-padding-v);
+    --grvsc-padding-left: var(--grvsc-padding-h);
+    --grvsc-border-radius: 8px;
+  
+    --grvsc-line-highlighted-background-color: transparent;
+    --grvsc-line-highlighted-border-width: 4px;
+    --grvsc-line-highlighted-border-color: transparent;
+  }
+  
+  .grvsc-container {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 1rem;
+    padding-top: var(--grvsc-padding-top);
+    padding-bottom: 1rem;
+    padding-bottom: var(--grvsc-padding-bottom);
+    border-radius: 8px;
+    border-radius: var(--grvsc-border-radius);
+    font-feature-settings: normal;
+  }
+  
+  .grvsc-code {
+    display: inline-block;
+    min-width: 100%;
+  }
+  
+  .grvsc-line {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 1.5rem;
+    padding-left: var(--grvsc-padding-left);
+    padding-right: 1.5rem;
+    padding-right: var(--grvsc-padding-right);
+  }
+  
+  .grvsc-line-highlighted {
+    background-color: var(--grvsc-line-highlighted-background-color);
+    box-shadow: inset var(--grvsc-line-highlighted-border-width) 0 0 0 var(--grvsc-line-highlighted-border-color);
+  }
+  
+&lt;/style&gt;</content:encoded></item><item><title><![CDATA[Day 3 to 6 - My react movie-app]]></title><description><![CDATA[On days 3 and 4, I had the Financial Math and Basics of Law exams at my University. Besides that, I managed to find some time to work on my…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/day3/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/day3/</guid><pubDate>Mon, 17 Feb 2020 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;On days 3 and 4, I had the Financial Math and Basics of Law exams at my University. Besides that, I managed to find some time to work on my movie app.&lt;/p&gt;
 &lt;p&gt;On days 5 and 6, I decided to redesign my app. I learned a valuable lesson to always do a design sketch first, then start coding. After some troubles with useEffect hook, I finally finish the first version of my app.&lt;/p&gt;
 &lt;p&gt;You can see my code &lt;a href=&quot;https://github.com/rafalmoneta/movie-app-react&quot;&gt;there&lt;/a&gt; and test my movie-app &lt;a href=&quot;https://rafalmoneta.github.io/movie-app-react/&quot;&gt;there&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;span
